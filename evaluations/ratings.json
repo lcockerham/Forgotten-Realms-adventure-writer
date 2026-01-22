@@ -1,0 +1,82 @@
+[
+  {
+    "adventure_file": "the-whispers-of-undermountain.md",
+    "adventure_title": "The Whispers of Undermountain",
+    "rating": 2,
+    "feedback": "It looks like it was created before I made some changes the skill. The DCs are wrong, it doesn't follow the style guide for skills, it has weird use of of bold, and is otherwise a boring adventure.",
+    "evaluated_at": "2026-01-19T12:00:00Z",
+    "level": 5
+  },
+  {
+    "adventure_file": "the-obsidian-sundial.md",
+    "adventure_title": "The Obsidian Sundial",
+    "rating": 3,
+    "feedback": "Writing issues",
+    "evaluated_at": "2026-01-19T12:01:00Z",
+    "level": 7
+  },
+  {
+    "adventure_file": "the-gilded-rat.md",
+    "adventure_title": "The Gilded Rat",
+    "rating": 2,
+    "feedback": "Writing a Xanathar heist adventure feels duplicative of Dragon Heist. Its also an incomplete adventure since the rat doesnt seem to do anything. My group would feel left hanging. And Pip is a very cliche name for a halfling.",
+    "evaluated_at": "2026-01-19T12:02:00Z",
+    "level": 3
+  },
+  {
+    "adventure_file": "fangs-of-the-fallen-temple.md",
+    "adventure_title": "Fangs of the Fallen Temple",
+    "rating": 3,
+    "feedback": "Feels contradictory - more temple, or just the tunnel to the port? Why are the yuan-ti tunneling? Might want to encourage indicating motivation.",
+    "evaluated_at": "2026-01-19T12:03:00Z",
+    "level": 5
+  },
+  {
+    "adventure_file": "the-purple-dragons-shame.md",
+    "adventure_title": "The Purple Dragon's Shame",
+    "rating": 2,
+    "feedback": "A bunch of nonsensical stuff. You cant make a dracolich from a dragon egg! I dont think there is even a dragon hatchery in Cormyr? The heart of the story about a purple dragon traitor might be a good start but horrible execution.",
+    "evaluated_at": "2026-01-19T12:04:00Z",
+    "level": 9
+  },
+  {
+    "adventure_file": "the-poisoned-well.md",
+    "adventure_title": "The Poisoned Well",
+    "rating": 2,
+    "feedback": "Very predictable and so straightforward.",
+    "evaluated_at": "2026-01-19T12:05:00Z",
+    "level": 2
+  },
+  {
+    "adventure_file": "the-pashas-contract.md",
+    "adventure_title": "The Pasha's Contract",
+    "rating": 3,
+    "feedback": "Workable but has serious flaws. If the PCs have the contract already, why would the bone devil offer a deal? Combat encounters are way too easy - imps at 12th level is a walkover. Would have liked details about the three sons, and why there is a Temple of Asmodeus under a Temple of Waukeen.",
+    "evaluated_at": "2026-01-19T12:06:00Z",
+    "level": 12
+  },
+  {
+    "adventure_file": "the-drowned-grove.md",
+    "adventure_title": "The Drowned Grove",
+    "rating": 4,
+    "feedback": "No logical inconsistencies. Does a good job of capturing the feel of the Moonshaes. Encounter balance seems about right.",
+    "evaluated_at": "2026-01-19T12:07:00Z",
+    "level": 4
+  },
+  {
+    "adventure_file": "the-bone-tithe.md",
+    "adventure_title": "The Bone Tithe",
+    "rating": 3,
+    "feedback": "DCs are too high, even for 15th level. Why does Tam offer a gift? He should ask for something in exchange.",
+    "evaluated_at": "2026-01-19T12:08:00Z",
+    "level": 15
+  },
+  {
+    "adventure_file": "the-stolen-moon.md",
+    "adventure_title": "The Stolen Moon",
+    "rating": 3,
+    "feedback": "Decent. Probably need to add a better way to flavor/add abilities/reskin generic monsters. Having portraits of PCs would have been a good twist.",
+    "evaluated_at": "2026-01-19T12:09:00Z",
+    "level": 6
+  }
+]

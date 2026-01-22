@@ -2,47 +2,40 @@
 
 Quick reference for creating authentic Faerun adventures. This is a curated subset of the most useful lore for one-page adventures.
 
-## Major Cities and Regions
+## Major Regions of Faerun
+- **The Sword Coast**: Long coastline alone the Trackless Sea, major trade artery
+- **The Dalelands**: Breadbasket of the Heartlands with forest vales and rolling farmlands
+- **Icewind Dale**: Ten Towns of various sizes in the arctic lands of the northenmost Sword Coast
+- **Calimshan**: Ancient desert empire in the south, ruled by pashas and sultans, rife with genies and intrigue
+- **The Moonshae Isles**: Celtic-flavored archipelago west of the Sword Coast, druids, fey, and Northlander raiders
+- **Cormyr**: Stable feudal kingdom ruled by the Obarskyr dynasty, known for Purple Dragon Knights and War Wizards
+- **Sea of Fallen Stars**: Vast inland sea (the Inner Sea), connects dozens of nations, pirates and underwater kingdoms
+- **Anauroch**: Great desert covering the ruins of ancient Netheril, home to Bedine nomads and buried magic
+- **The Unapproachable East**: Region including Thay, Rashemen, and Aglarond; land of Red Wizards and witches
+- **Chult**: Tropical peninsula filled with dinosaurs, undead, yuan-ti, and lost cities in dense jungle
+- **Halruaa**: Isolated magocracy in the south, descended from Netherese refugees, flying ships and magic everywhere
 
-### Sword Coast
-- **Waterdeep**: City of Splendors, ruled by Lords of Waterdeep (masked nobles), major trade hub
+### Major Cities
+- **Waterdeep**: City of Splendors, ruled by Lords of Waterdeep (masked nobles with one Open Lord), major trade hub
 - **Neverwinter**: "Jewel of the North," recovering from cataclysm, Lord Neverember rules
-- **Baldur's Gate**: Merchant city, morally gray, entrance to Avernus
+- **Baldur's Gate**: Merchant city, morally gray
 - **Luskan**: Pirate city ruled by Ship Captains, lawless and dangerous
+- **Calimport**: Largest city in Calimshan, labyrinthine streets, thieves' guilds, genie-bound nobility
+- **Westgate**: Port city on the Dragon Coast, ruled by corrupt merchants, gateway to the Inner Sea
+- **Athkatla**: Capital of Amn, "City of Coin," merchant princes and the Cowled Wizards who regulate magic
+- **Suzail**: Royal capital of Cormyr, seat of the Purple Dragon throne, gleaming towers and noble courts 
 
 ### Other Major Locations
 - **Candlekeep**: Fortress library, requires book donation for entry, monks and scholars
 - **Undermountain**: Massive dungeon beneath Waterdeep, created by Halaster the Mad Mage
-- **Icewind Dale**: Frozen north, Ten-Towns, dangerous wilderness
-- **Calimport**: Desert city in the south, thieves' guilds and genies
+- **Myth Drannor**: Ruined elven city in Cormanthor forest, once greatest city of elves, now demon-haunted ruins rich with magic 
 
 ### Smaller Locations (Great for Adventures)
 - **Phandalin**: Small frontier town, near ruins and mines
 - **Red Larch**: Farming community, mysterious underground cults
 - **Triboar**: Trade town at crossroads, frequent monster attacks
 - **Secomber**: Small town on Delimbiyr River, frontier outpost
-
-## Deities
-
-### Good-Aligned
-- **Tymora**: Luck, good fortune, adventurers - domains: Trickery
-- **Lathander**: Dawn, renewal, creativity - domains: Life, Light
-- **Torm**: Duty, loyalty, righteousness - domains: War
-- **Chauntea**: Agriculture, farmers, growth - domains: Life
-- **Selûne**: Moon, navigation, questers - domains: Knowledge, Life
-
-### Neutral
-- **Kelemvor**: Death, the dead, judgment - domains: Death
-- **Mystra**: Magic, spells, the Weave - domains: Arcana, Knowledge
-- **Silvanus**: Wild nature, druids - domains: Nature
-- **Gond**: Craft, invention, construction - domains: Knowledge, Forge
-
-### Evil
-- **Bane**: Tyranny, fear, conquest - domains: War
-- **Bhaal**: Murder, assassination - domains: Death
-- **Myrkul**: Death, decay, exhaustion - domains: Death
-- **Shar**: Darkness, loss, secrets - domains: Death, Trickery
-- **Talos**: Storms, destruction, chaos - domains: Tempest
+- **Shadowdale**: Small farming dale in the Dalelands, home to Elminster, frequently targeted by Zhentarim 
 
 ## Factions
 
@@ -89,10 +82,28 @@ Quick reference for creating authentic Faerun adventures. This is a curated subs
 - Seek magical power and conquest
 - Good for: Necromancy, magical experiments, planar threats
 
-**Xanathar Guild**
+**Xanathar's Guild**
 - Criminal organization in Waterdeep
 - Led by a paranoid beholder (Xanathar)
 - Good for: Urban crime, kidnapping, treasure heists
+
+**Church of Shar**
+- Worships goddess of darkness, loss, and secrets
+- Seeks to extinguish light, hope, and memory
+- Bitter enemies of Selûnites (followers of the moon goddess)
+- Good for: Shadow magic, memory theft, infiltration, nihilistic plots
+
+**The Shadovar**
+- Netherese survivors from the Shadowfell, city of Shade
+- Wield powerful shadow magic, seek to restore Netheril's glory
+- Arrogant, view modern Faerun as primitive
+- Good for: Ancient magic returning, shadow incursions, empire-building schemes
+
+**Cult of Asmodeus**
+- Worships the Lord of the Nine Hells
+- Seeks souls, contracts, and political influence through deception
+- Often poses as legitimate organizations or merchants
+- Good for: Infernal contracts, soul trafficking, political corruption, devil summoning
 
 ## Common NPCs/Figures
 
@@ -106,7 +117,6 @@ Quick reference for creating authentic Faerun adventures. This is a curated subs
 - **Elminster**: Ancient archmage, chosen of Mystra, advisor
 - **Drizzt Do'Urden**: Famous drow ranger, hero of Icewind Dale
 - **Jarlaxle Baenre**: Drow mercenary leader, charismatic rogue
-- **Mordenkainen**: Powerful wizard, planar traveler
 
 ## Monsters Common to Faerun
 
@@ -136,12 +146,6 @@ Quick reference for creating authentic Faerun adventures. This is a curated subs
 - Electrum pieces (ep)
 - Gold pieces (gp)
 - Platinum pieces (pp)
-
-### Organizations and Guilds
-- **Watchful Order of Magists & Protectors**: Waterdeep wizard guild
-- **Guild of Stonecutters & Masons**: Dwarf construction guild
-- **Fellowship of Innkeepers**: Tavern keepers alliance
-- **Cult of the Dead Three**: Bane, Bhaal, and Myrkul worshippers
 
 ### Common Magic Items
 - Potions of healing (widely available)

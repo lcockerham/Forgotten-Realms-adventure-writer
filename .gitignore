@@ -1,6 +1,19 @@
 # Generated adventures
 generated-adventures/
 
-# Sample adventures (if exists)
+# Sample adventures (copyrighted examples)
 sample-adventures/
 Sample Adventures/
+
+# Source materials (copyrighted PDFs, books, etc.)
+sources/
+Sources/
+
+# Encounter difficulty reference (copyrighted)
+encounter difficulty
+
+# Local Claude settings
+.claude/settings.local.json
+
+# Personal notes
+skill-improvement-notes.md

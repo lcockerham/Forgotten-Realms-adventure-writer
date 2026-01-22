@@ -1,74 +1,114 @@
 # Faerun Adventure Writer
 
-**⚠️ Early Development Notice**: This project is in very early stages. Expect significant changes to the skill structure, templates, and generation logic as the tool evolves.
-
-A Claude Code skill for generating high-quality one-page D&D adventures set in the Forgotten Realms (Faerun). Create ready-to-run adventures with proper mechanics, lore integration, and table-ready format.
+A Claude Code skill for generating one-page D&D adventures set in the Forgotten Realms. Create ready-to-run adventures with proper mechanics, lore integration, and table-ready format.
 
 ## Features
 
-- **One-Page Format**: Adventures designed to fit on a single page for easy reference at the table
+- **One-Page Format**: Adventures designed to fit on a single page for easy table reference
 - **Faerun Integration**: Built-in lore references for deities, factions, locations, and NPCs
-- **Complete Mechanics**: Proper DCs, damage ranges, and encounter balance by level
+- **Mechanical Guidelines**: Level-appropriate DCs, damage ranges, and encounter balance
 - **Room-by-Room Details**: Clear location breakdowns with monsters, traps, and treasure
-- **Quality Guidelines**: Structure templates and evaluation rubrics for consistent quality
+- **Evaluation System**: Rate and track adventure quality with structured feedback
+
+## Commands
+
+| Command | Description |
+|---------|-------------|
+| `/create-adventure` | Generate a new one-page adventure with guided prompts |
+| `/eval-adventure` | Rate generated adventures and collect feedback |
 
 ## Installation
 
-This is a Claude Code skill. To use it:
+Clone this repository and copy the `.claude` folder to your project:
 
-1. Clone this repository into your Claude Code skills directory:
-   ```bash
-   cd ~/.claude/skills  # or your skills directory
-   git clone <your-repo-url> faerun-adventure-reference
-   ```
+```bash
+git clone https://github.com/YOUR_USERNAME/faerun-adventure-writer.git
+cp -r faerun-adventure-writer/.claude /your/project/
+```
 
-2. The skill will be available as `/faerun-adventure-reference` in Claude Code
+Or add as a git submodule for easy updates.
 
 ## Usage
 
-In Claude Code, invoke the skill to:
+### Generate an Adventure
 
-- **Generate adventures**: `use the faerun-adventure-reference skill to generate an adventure`
-- **Evaluate adventures**: Provide an adventure text and ask for evaluation
-- **Check lore accuracy**: Verify Faerun details in your content
+```
+/create-adventure
+```
 
-## Adventure Structure
+You'll be prompted for:
+- **Level** (1-20, or random)
+- **Theme** (combat, investigation, social, balanced)
+- **Location** (specific region or surprise)
 
-Each generated adventure includes:
+The adventure is saved to `generated-adventures/`.
 
-- **Hook**: 2-3 sentence setup tied to Faerun lore
-- **Key Encounters**: Bulleted list of 3-5 main challenges
-- **Location Details**: Room-by-room breakdown with mechanics
-- **Treasure & Rewards**: Appropriate loot for the level
+### Evaluate Adventures
+
+```
+/eval-adventure
+```
+
+Rate adventures 1-5:
+| Score | Label | Description |
+|-------|-------|-------------|
+| 1 | Trash | Non-sensical, unusable |
+| 2 | AI Slop | Generic, obviously machine-generated |
+| 3 | Passable | Functional but uninspired |
+| 4 | Good | Would run at a table |
+| 5 | Excellent | Publication quality |
+
+Evaluations are saved to `evaluations/ratings.json`.
 
 ## Project Structure
 
 ```
-.claude/skills/faerun-adventure-reference/
-├── SKILL.md              # Main skill definition and instructions
-├── faerun-lore.md        # Reference for Forgotten Realms content
-├── examples.md           # Sample adventures with annotations
-└── evaluation-rubric.md  # Quality assessment criteria
+.claude/
+├── commands/
+│   ├── create-adventure.md    # Adventure generation command
+│   └── eval-adventure.md      # Evaluation command
+└── skills/
+    └── faerun-adventure-reference/
+        ├── SKILL.md           # Main skill definition
+        ├── faerun-lore.md     # Locations, factions, NPCs
+        ├── deities.md         # Detailed deity reference
+        ├── examples.md        # Sample adventures
+        └── evaluation-rubric.md
 
-generated-adventures/     # Output folder (gitignored)
+generated-adventures/          # Output folder (gitignored)
+evaluations/                   # Rating data (gitignored)
+tasks.md                       # Improvement roadmap
 ```
 
-## Customization
+## Lore References
 
-The skill can be modified to:
-- Add new location templates
-- Include additional Faerun lore references
-- Adjust mechanical guidelines for different play styles
-- Create adventures for specific campaigns or themes
+The skill includes curated Faerun lore for authentic adventures:
+
+- **Regions**: Sword Coast, Dalelands, Calimshan, Chult, Thay, and more
+- **Cities**: Waterdeep, Neverwinter, Baldur's Gate, Calimport, Suzail
+- **Factions**: Harpers, Zhentarim, Emerald Enclave, Cult of the Dragon
+- **Deities**: 30+ deities with temples, allies, foes, and adventure hooks
+
+## Roadmap
+
+See `tasks.md` for planned improvements including:
+- Monster reference with CR and regional data
+- Encounter building rules
+- Name generation tables
+- Logical consistency checks
 
 ## Contributing
 
-This project is in active development. Contributions, suggestions, and feedback are welcome as the skill evolves.
+Contributions welcome! Key areas:
+- Lore accuracy improvements
+- Additional regional content
+- Mechanical balance feedback
+- Example adventures
 
 ## License
 
-MIT License - See LICENSE file for details
+MIT License - See LICENSE file
 
 ## Acknowledgments
 
-Inspired by "Adventures in Faerun" and the rich lore of the Forgotten Realms setting.
+Inspired by the Forgotten Realms setting and one-page adventure format.

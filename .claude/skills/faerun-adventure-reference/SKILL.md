@@ -46,8 +46,9 @@ For each significant room:
 
 **Mechanical Details Format:**
 - Monster types clearly stated (e.g., "A Psychic Gray Ooze")
+- Monstar names are bolded
 - Traps: "DC [X] [Ability] saving throw, taking [XdX] [Type] damage on a failed save or half as much on success"
-- Skill checks: "DC [X] [Skill] check"
+- Skill checks: "DC [X] [Ability]([Skill]) check"
 
 ### 5. Map Integration
 - Adventures reference a battle map with labeled rooms
@@ -80,16 +81,15 @@ For detailed Faerun lore, see [faerun-lore.md](faerun-lore.md)
 ## Mechanical Guidelines
 
 ### DCs by Level
-- **Level 1-4**: Easy DC 10, Medium DC 13, Hard DC 15
-- **Level 5-10**: Easy DC 12, Medium DC 15, Hard DC 18
-- **Level 11-16**: Easy DC 14, Medium DC 17, Hard DC 20
-- **Level 17-20**: Easy DC 16, Medium DC 19, Hard DC 22
+- Easy DC: 8 + [Level]
+- Medium DC: 10 + [level]
+- Hard DC: 12 + [level]
 
 ### Damage Ranges
-- **Level 1**: 1d6-1d8 for traps/hazards, 2d6 for deadly
-- **Level 2-4**: 2d6-2d8, 4d6 for deadly
-- **Level 5-10**: 4d6-4d10, 8d6 for deadly
-- **Level 11+**: Scale appropriately
+- **Level 1 - 4**: 1d10 for Nuisance, 2d10 for deadly
+- **Level 5 - 10**: 2d10 for Nuisance, 4d10 for deadly
+- **Level 11 - 16**: 4d10 for Nuisance, 10d10 for deadly
+- **Level 17 - 20**: 10d10 for Nuisance, 18d10 for deadly
 
 ### Encounter Balance
 - One main combat encounter appropriate for the party level
@@ -99,7 +99,8 @@ For detailed Faerun lore, see [faerun-lore.md](faerun-lore.md)
 
 ## Supporting Files
 
-- **[faerun-lore.md](faerun-lore.md)**: Detailed reference on Faerun locations, factions, deities, and NPCs
+- **[faerun-lore.md](faerun-lore.md)**: Quick reference on Faerun locations, factions, and NPCs
+- **[deities.md](deities.md)**: Detailed deity information including specialty priests, major temples, allies/foes, and adventure hooks
 - **[examples.md](examples.md)**: Full example adventures with annotations
 - **[evaluation-rubric.md](evaluation-rubric.md)**: Quality criteria for reviewing adventures
 
