@@ -97,10 +97,24 @@ For detailed Faerun lore, see [faerun-lore.md](faerun-lore.md)
 - Mix of combat, exploration, and problem-solving
 - At least one skill challenge or investigation opportunity
 
+**XP Budget System** (see [monsters.md](monsters.md) for full tables):
+- Calculate XP budget = (Budget per character) × 4 (standard party)
+- Select monsters whose total XP does not exceed budget
+- Low/Moderate/High difficulty options available per level
+- Example (Level 5, Moderate): 750 × 4 = 3,000 XP budget
+
+**Monster Selection Rules**:
+- Only use monsters from [monsters.md](monsters.md) or official sources (MM, VGM, MTF)
+- Verify monster CR is appropriate for party level (±2 CR of party level for standard encounters)
+- Check regional fit (no ice creatures in deserts, no fire creatures in arctic)
+- Consider action economy: 4+ enemies can be deadlier than CR suggests
+
 ## Supporting Files
 
 - **[faerun-lore.md](faerun-lore.md)**: Quick reference on Faerun locations, factions, and NPCs
 - **[deities.md](deities.md)**: Detailed deity information including specialty priests, major temples, allies/foes, and adventure hooks
+- **[monsters.md](monsters.md)**: Monster reference with CR, XP values, regional locations, and encounter building rules
+- **[validation-checklist.md](validation-checklist.md)**: Pre-save validation checks for mechanical, lore, and story quality
 - **[examples.md](examples.md)**: Full example adventures with annotations
 - **[evaluation-rubric.md](evaluation-rubric.md)**: Quality criteria for reviewing adventures
 
@@ -111,14 +125,16 @@ When generating a one-page adventure:
 1. **Start with the map**: Reference an available map and build encounters around its rooms
 2. **Choose a level**: Select appropriate level and use corresponding DCs/damage
 3. **Create the hook**: Tie it to specific Faerun lore (deity, faction, or location)
-4. **Design encounters**:
-   - 1 main combat encounter
+4. **Calculate XP budget**: Use [monsters.md](monsters.md) tables (Level → Difficulty → Budget × 4)
+5. **Select monsters**: Choose from [monsters.md](monsters.md), verify regional fit and CR appropriateness
+6. **Design encounters**:
+   - 1 main combat encounter (spend 50-70% of XP budget)
    - 1-2 investigation/exploration moments
    - 1 trap or puzzle
    - 1 social or story element
-5. **Write room descriptions**: Match room names to map labels
-6. **Add mechanics inline**: DCs, damage, monster types
-7. **Verify length**: Should fit on one page
+7. **Write room descriptions**: Match room names to map labels
+8. **Add mechanics inline**: DCs, damage, monster types
+9. **Verify length**: Should fit on one page
 
 ## Instructions for Evaluation
 

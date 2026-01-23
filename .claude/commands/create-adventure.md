@@ -80,14 +80,30 @@ Compose the full adventure using:
 - **Evocative details**: Atmosphere in few words
 - **Clear mechanics**: No ambiguity
 
-## Step 6: Verify Quality
+## Step 6: Run Validation Checklist
 
-Before presenting, check:
-- [ ] Fits one-page format (hook + encounters + location details)
-- [ ] Level-appropriate DCs and damage
-- [ ] Faerun lore is accurate
-- [ ] Clear story progression (hook → encounters → resolution)
-- [ ] Runnable at the table with minimal prep
+Before saving, run through `.claude/skills/faerun-adventure-reference/validation-checklist.md`:
+
+### Critical Checks (must PASS)
+- [ ] **Villain Motivation**: Can state "The villain wants _____ because _____"
+- [ ] **Encounter Balance**: Main combat XP is within budget (see [monsters.md](../skills/faerun-adventure-reference/monsters.md))
+- [ ] **DC Labels**: All DCs include difficulty label: "DC 15 (Medium) Dexterity saving throw"
+- [ ] **Story Resolution**: Adventure ends, not cliffhangs
+- [ ] **Lore Accuracy**: No invented locations, correct deity portfolios, valid monster origins
+- [ ] **Chekhov's Gun**: Every introduced element (NPC, item, mystery) pays off
+
+### Quick Calculations
+1. **DCs**: Easy = 8 + level, Medium = 10 + level, Hard = 12 + level
+2. **XP Budget** (Moderate, 4 PCs): Look up level in monsters.md, multiply by 4
+3. **Main encounter**: Should use 50-70% of budget
+
+### Format Checks
+- [ ] Fits one-page format
+- [ ] Monster names bolded
+- [ ] Mechanics complete (DC + skill + damage + save effect)
+- [ ] Level clearly stated
+
+If any critical check fails, fix before proceeding to Step 7.
 
 ## Step 7: Save the Adventure
 
