@@ -78,5 +78,85 @@
     "feedback": "Decent. Probably need to add a better way to flavor/add abilities/reskin generic monsters. Having portraits of PCs would have been a good twist.",
     "evaluated_at": "2026-01-19T12:09:00Z",
     "level": 6
+  },
+  {
+    "adventure_file": "the-salted-tomb.md",
+    "adventure_title": "The Salted Tomb",
+    "rating": 3,
+    "feedback": "Uses em dash - need to add rules to avoid those (reminds of AI writing style). The only way to finish the adventure is another adventure (traveling to Waterdeep). Not good unless we also have a boat travel adventure available.",
+    "evaluated_at": "2026-01-27T12:00:00Z",
+    "level": 3
+  },
+  {
+    "adventure_file": "the-ember-bargain.md",
+    "adventure_title": "The Ember Bargain",
+    "rating": 3,
+    "feedback": "Mount Sulaer seems to be hallucinated. Encounter balance is being calculated across the entire adventure rather than encounter by encounter. Should be 1 easy or medium encounter and 1 hard.",
+    "evaluated_at": "2026-01-27T12:01:00Z",
+    "level": 5
+  },
+  {
+    "adventure_file": "whispers-in-the-well.md",
+    "adventure_title": "Whispers in the Well",
+    "rating": 3,
+    "feedback": "No notes.",
+    "evaluated_at": "2026-01-27T12:02:00Z",
+    "level": 8
+  },
+  {
+    "adventure_file": "the-clockwork-inheritance.md",
+    "adventure_title": "The Clockwork Inheritance",
+    "rating": 4,
+    "feedback": "Reminds me of a published WotC adventure in Keys from the Golden Vault. Not sure if 'DC 16 Intelligence puzzle' follows WotC style guide - need to check that.",
+    "evaluated_at": "2026-01-27T12:03:00Z",
+    "level": 4
+  },
+  {
+    "adventure_file": "the-moonbridge-betrayal.md",
+    "adventure_title": "The Moonbridge Betrayal",
+    "rating": 3,
+    "feedback": "Eclipse Confrontation uses two different monster names (Spy and Shadow Sorcerer) before giving the actual stat block (Mage). Confusing. Also a bad monster choice for an assassin. Way too many em dashes.",
+    "evaluated_at": "2026-01-27T12:04:00Z",
+    "level": 7
+  },
+  {
+    "adventure_file": "the-gilded-chain.md",
+    "adventure_title": "The Gilded Chain",
+    "rating": 4,
+    "feedback": "Avoid using the word 'slaves' in adventures. Otherwise a fine Descent into Avernus side trek.",
+    "evaluated_at": "2026-01-27T12:05:00Z",
+    "level": 6
+  },
+  {
+    "adventure_file": "the-frozen-bargain.md",
+    "adventure_title": "The Frozen Bargain",
+    "rating": 4,
+    "feedback": "CR 5 Night Hag is not enough of a challenge for a level 9 party. Encounter math needs fixing - relates to broader encounter balance issue.",
+    "evaluated_at": "2026-01-27T12:06:00Z",
+    "level": 9
+  },
+  {
+    "adventure_file": "the-serpents-masquerade.md",
+    "adventure_title": "The Serpent's Masquerade",
+    "rating": 4,
+    "feedback": "Interesting use of the Gralhunds since they can be central in Dragon Heist. Consider handling published adventure crossover somehow. Love the 'Dendar will spare you when she wakes' line.",
+    "evaluated_at": "2026-01-27T12:07:00Z",
+    "level": 10
+  },
+  {
+    "adventure_file": "the-last-crusade.md",
+    "adventure_title": "The Last Crusade",
+    "rating": 4,
+    "feedback": "Death Knights don't technically have phylacteries, but a good rule to bend for the story. The adventure alludes to Orel and Varagoth being brothers - should make that concrete rather than implied.",
+    "evaluated_at": "2026-01-27T12:08:00Z",
+    "level": 12
+  },
+  {
+    "adventure_file": "the-dreaming-dark.md",
+    "adventure_title": "The Dreaming Dark",
+    "rating": 4,
+    "feedback": "The Dreaming Dark is a faction in Eberron - need terms to avoid from other settings. Use of Elminster is fine here. DC 22 Wis save or 2 levels of exhaustion at entry could easily break the adventure for some groups - needs to be toned down. Encounter balance seems hard but offset by Elminster's aid.",
+    "evaluated_at": "2026-01-27T12:09:00Z",
+    "level": 14
   }
 ]
