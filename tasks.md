@@ -4,7 +4,7 @@ Based on evaluation feedback (avg rating: 2.6/5, pass rate: 10%), these are the 
 
 ## High Priority
 
-- [ ] **Fix eval rating option order** - Rating options in eval-adventure.md are listed 5,4,3,2 (descending) but keyboard shortcuts are 1,2,3,4 (ascending), so pressing "2" selects "4 - Good" instead of "2 - AI Slop". Reverse the option order to list 2,3,4,5 (ascending) so keyboard shortcuts match the rating numbers.
+- [x] **Fix eval rating option order** - Added explicit instruction in eval-adventure.md to list options in ascending order (2,3,4,5) so keyboard shortcuts align with rating numbers.
 
 - [x] **Avoid cliche names** - Created names.md with canonical Faerûnian names organized by 22 cultures/languages with regional quick reference.
 

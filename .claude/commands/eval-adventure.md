@@ -31,7 +31,7 @@ For each unevaluated adventure:
 ### Step 3: Collect Rating
 
 Use AskUserQuestion to ask:
-- **Rating (1-5)**: Using the scale above
+- **Rating (1-5)**: Using the scale above. **IMPORTANT**: List rating options in ascending order (2, 3, 4, 5) so that keyboard shortcut numbers align with ratings. The first option should be "2 - AI Slop", then "3 - Passable", then "4 - Good", then "5 - Excellent". Do NOT list them in descending order.
 - Then ask for **free-form feedback** (optional)
 
 ### Step 4: Save Evaluation
